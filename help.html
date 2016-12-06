@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>租车</title>	
+	<!-- 引入bootstrap的css文件 -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css">
+	<!-- 引入统一的css文件 -->	
+	<link rel="stylesheet" type="text/css" href="css/reset.css">	
+	<link rel="stylesheet" type="text/css" href="css/style-index.css">	
+	<link rel="stylesheet" type="text/css" href="css/style-help.css">	
+
+	
+</head>
+<body class="hccolor">
+	<!-- 顶部导航开始 -->
+	<div id="header-nav">
+		<div class="header-nav-top">
+			<div class="wrapper">
+				<!-- 导航左侧开始 -->
+				<div class="nav-left">
+					<a href="#">
+						7x24小时中文热线：中国大陆 1010 1020&nbsp;&nbsp;&nbsp;&nbsp;美国 +1 (347) 788 0952
+	                    <span class="caret"></span>
+					</a>				
+				</div>
+				<!-- 导航左侧结束 -->
+				<!-- 导航右侧开始 -->
+				<div class="nav-right">
+					<a href="login.html" id="login">登陆</a>
+					<a href="register.html" id="zhuce">注册</a>
+					<a href="#" id="lookup">订单查询</a>
+					<a href="#" id="mobile">手机版</a>
+					<a href="#" id="weixin">微信</a>		
+				</div>
+				<!-- 导航右侧结束 -->
+			</div>
+		</div>
+		<div class="header-nav-bottom">
+			<div class="logo">
+				<a href="#" title="租车" class="zzc-logo">租车</a>
+			</div>
+			<div class="second-logo">
+				<img src="img/zzc_slogen_new6.png" alt="">
+			</div>
+			<div class="menu">
+				<div class="menu-inner">
+					<div class="fd"><a href="index.html">首页</a></div>
+					<div class="fd"><a href="page1.html">海外房车</a></div>					
+					<div class="fd"><a href="#">长租计划</a></div>
+					<div class="fd"><a href="#">用户分享</a></div>
+					<div class="fd">
+						<a href="help.html">
+							帮助中心
+							<span class="caret"></span>
+						</a>
+						<div class="erjimenu">
+							<ul>
+								<li><a href="#">服务规则</a></li>
+								<li><a href="#">新手上路</a></li>
+								<li><a href="#">常见问题</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="fd">
+						<a href="#">
+							新闻中心
+							<span class="caret"></span>
+						</a>
+						<div class="erjimenu">
+							<ul>
+								<li><a href="#">租客故事</a></li>
+								<li><a href="#">旅游攻略</a></li>
+							</ul>
+						</div>	
+					</div>
+					<div class="fd"><a href="#">关于我们</a></div>
+				</div>
+			</div>
+		</div>		
+	</div>
+	<!-- 顶部导航结束 -->
+	<!-- 内容区开始 -->
+	<div class="zc-helpcenter">
+		<div class="hc-ban">
+			<h1>帮助中心</h1>
+			<div class="search">
+				<div class="ipt">
+					<input type="text" maxlength="50" class="t_val" id="keyword" value="请简单输入您的关键词，如“租车流程”">
+					<i class="icon-mglass"></i>
+				</div>
+				<a href="javaScript:void(0);" id="searchF" class="btn-search">搜索</a>
+			</div>
+			<p class="hot-ser">热门搜索：
+				<a href="#"><i>预订及取车</i></a>
+				<a href="#"><i>还车及结算</i></a>
+				<a href="#"><i>保险服务</i></a>
+				<a href="#"><i>紧急服务</i></a>
+				<a href="#"><i>会员服务</i></a>
+				<a href="#"><i>限行政策</i></a>
+			</p>
+		</div>
+		<div class="hc-nav">
+			<div class="nav page-tab" id="page-tab">
+				<ul>
+					<li class="active">
+						<a href="javascrip:;"><i class="icon-fwgz"></i>服务规则</a>
+					</li>
+					<li>
+						<a href="javascrip:;"><i class="icon-xssl"></i>新手上路</a>
+					</li>
+					<li>
+						<a href="javascrip:;"><i class="icon-cjwt"></i>常见问题</a>
+					</li>					
+				</ul>
+			</div>
+		</div>
+		<div class="hc-main15 hc-con" id="hc-con" style="display:block;">
+			<div class="hc-left">
+				<div class="hc-leftin hc-bxsd">
+					<h1>规则索引</h1>
+					<ul>
+						<li class="cur"><a href="#fwgz01">服务时间</a></li>
+						<li><a href="#fwgz02">短租自驾产品</a></li>
+						<li><a href="#fwgz03">待租车况</a></li>
+						<li><a href="#fwgz04">服务预订</a></li>				
+					</ul>
+				</div>
+				<div class="left-kong"></div>				
+			</div>
+			<div class="hc-right hc-bxsd">
+				<h1 id="fwgz01" class="mt0">服务时间</h1>
+				<p>
+					1. 客服中心 (400 616 6666):&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7×24小时
+					<br>
+					2. 门店：
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;(1) 机场店/市区24小时店&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7×24小时
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;(2) 火车站店/高铁站店/市区非24小时店　　08:00-21:00
+					<br>
+					3. 服务点：
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;(1) 机场服务点　　7×24小时
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;(2) 其他服务点*　09:00-19:00
+					<br>
+					4. 送车上门/上门取车*：09:00-20:00
+					<br>
+					注：节假日期间，上门服务时间可能调整，敬请留意网站可预订时间。
+				</p>
+				<h1 id="fwgz02">短租自驾产品</h1>
+				<h2>产品类型</h2>
+				<p>我们向您提供89天（含）以下的短租自驾服务，您可以视用车需求选择适合的产品：</p>
+				<table width="100%" border="0" class="hctable">
+					<tbody>
+						<tr>
+							<th width="85">项目</th>
+							<th width="260">普通产品</th>
+							<th width="260">周租/月租产品</th>
+							<th width="260">工作日套餐</th>
+						</tr>
+						<tr>
+							<td>价格</td>
+							<td>正常价</td>
+							<td>优惠价</td>
+							<td>优惠价</td>
+						</tr>
+						<tr>
+							<td>付款时间</td>
+							<td>取车时先付或还车时付全款</td>
+							<td>取车时付全款</td>
+							<td>取车时付全款</td>
+						</tr>
+						<tr>
+							<td>租期限制</td>
+							<td>最短1天（不满1天视为1天）,最长27天</td>
+							<td>周租最短7天（含），最长27天（含）；月租最短28天（含），最长89天（含）</td>
+							<td>最短4天（含），最长6天（含），租期内必须包含周一至周四，且取车时间在周日16:00至周一12：00，还车时间需在周四16:00至周五12：00</td>
+						</tr>
+						<tr>
+							<td>提前还车</td>
+							<td>提前通知，按实际租期结算</td>
+							<td>多付金额不退</td>
+							<td>多付金额不退</td>
+						</tr>
+						<tr>
+							<td>行驶里程</td>
+							<td>不限里程</td>
+							<td>不限里程</td>
+							<td>不限里程</td>
+						</tr>
+						<tr>
+							<td>会员积分</td>
+							<td>会员积分</td>
+							<td>会员积分</td>
+							<td>会员积分</td>
+						</tr>
+					</tbody>
+				</table>
+				<p>提示：为预留车辆，部分紧缺产品（如节假日订单）或特价产品（如顺风车、预付产品），预订时需一次性预付车辆租赁费、门店服务费，敬请留意。</p>
+				<h2>可选服务</h2>
+				<p>
+					神州租车为您提供以下可选服务，只要您在预订时提出需求，就能轻松享受各项便利。
+					<br>
+					1.GPS导航仪：
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;为满足您的旅途需求，各服务网点备有GPS导航仪，只要您提前预订即可使用（数量有限，订完为止）。
+					<br>
+					2.送车上门服务：
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;我们可将车辆送至您指定的地点，为您现场办理租车手续。
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;(1)　各城市送车上门范围请在首页选择城市查看或向客服中心查询；
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;(2)　此项服务仅在9:00-20:00提供，为满足您的需求，请务必提前4个工作小时预订；
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;(3)　订单提交后，您需支付一定金额的预付款；成功预订后，如因您的缘故无法履约，取车前4小时以上取消订单，可全额退还预付款，否则该费用恕不退还。
+					<br>
+					3.上门取车服务：
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;租期结束，我们可到您指定的地点取回车辆，为您现场办理还车手续。
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;(1)　各城市上门取车的具体范围请在首页选择城市查看或向客服中心查询；
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;(2)　此项服务仅在9:00-20:00提供，为满足您的需求，请务必提前4个工作小时预订；
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;(3)　为合理判断车辆损伤、维护您的权益，如车辆在使用过程中出现事故或故障，请将车辆归还到门店。
+					<br>
+					4.同城异店还车服务：
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;神州租车提供同城异店还车服务，只要您事先预订，就能轻松在同城其他门店归还车辆。
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;为方便您还车，同时不影响下一位客户的既定行程，请您在预订时预订该服务或在预计还车前提前预订：如还车时间在
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;10:00-20:00，请您提前2小时预订；如还车时间在10:00-20:00之外，请您尽早致电400 6166666，我们将尽力满足
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;您的需求。
+					<br>
+					5.异地还车服务：
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;神州租车提供全国异地还车服务，只要您事先预订，就能轻松在我们全国任一服务网点归还车辆。
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;为方便您还车，同时不影响下一位客户的既定行程，建议您预订时预订该服务或在预计还车前提前预订：如还车时间在
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;10:00-20:00，请您提前2个小时预订；如还车时间在10:00-20:00之外，请您尽早致电400 616 6666，我们将尽力满足
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;您的需求。
+					<br>
+					6.不计免赔服务：
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;为增加您的出行保障，神州租车提供不计免赔服务。在您购买不计免赔服务后，无需承担保险理赔范围内的损失以及
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;保险理赔范围外的轮胎损失。
+					<br>
+					7.儿童安全座椅：
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;适用于9个月以上儿童，为保障儿童乘车安全，请您提前预定并在使用时按说明书进行相应调节。
+				</p>
+				<h1 id="fwgz03">待租车况</h1>
+				<p>我们竭诚为您提供安全、舒适、整洁的车辆：
+					<br>
+					1. 如无特殊情况，出车时油箱满油；
+					<br>
+					2. 车辆定期保养检修及安全检查，无重大事故及安全隐患；
+					<br>
+					3. 车身外观、内饰、性能：
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;(1)　车身清洁，内饰干净、无破损；
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;(2)　轮胎完好，无鼓包，胎面无明显偏磨；<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;(3)　备胎、灭火器、故障警示牌、随车工具等齐全完好；
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;(4)　行驶本、保单复印件、交强险标、年检标志等齐全并有效放置、粘贴；
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;(5)　车辆性能（灯光、仪表、空调、玻璃水、电瓶等）正常。
+				</p>
+				<h1 id="fwgz04">服务预订</h1>
+				<h2>预订方式</h2>
+				<p>
+					1. 网站预订：登录www.zuche.com，按网页提示进行预订；
+					<br>
+					2. 电话预订：致电神州租车24小时客户服务中心400 616 6666，客服人员将为您安排订车；
+					<br>
+					3. 门店预订：光临神州租车门店，门店人员将为您安排预订或协助您选租车辆。
+					<br>
+					4. 手机客户端预订：下载神州租车客户端，根据首页提示进行预订。
+				</p>
+				<h2>预订说明</h2>
+				<p>
+					1. 为不影响您的行程，建议您提前预订车辆；送车上门服务仅在9:00-20:00提供，请您务必提前4个工作小时预订。
+					<br>
+					2. 成功提交订单后，我们将为您预留车辆。
+					<br>
+					3. 客户取车：
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;(1)提前取车：
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如在预订取车时间前取车，租期将按您实际的取车时间计算。<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;(2)延时取车：
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如您需要延时取车，请务必在预订取车时间前致电我们以便为您保留车辆，超过预订取车时间半小时如果您未取车，订单将自动取消；
+					<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;延时取车，租期将自您原先预订的取车时间起算。
+					<br>
+					4. 在特殊情况（如车辆未还回等）无法向您提供已成功预订的车型时：
+					<br>&nbsp;&nbsp;&nbsp;&nbsp;(1)　我们将为您调整同级别车辆或免费升级车辆；
+					<br>&nbsp;&nbsp;&nbsp;&nbsp;(2)　确实无车提供的，我们将补偿您订单首日车辆租赁费及门店服务费同等金额的代金券。
+				</p>
+			</div>
+		</div>
+		<div class="hc-main15 hc-con" id="hc-con" style="display:none;">
+			<div class="hc-left">
+				<div class="hc-leftin hc-bxsd">
+					<h1>索引</h1>
+					<ul>
+						<li class="cur"><a href="#xssl01">注册和登录</a></li>
+						<li class=""><a href="#xssl02">网站预订</a></li>
+						<li class=""><a href="#xssl03">手机预订</a></li>
+						<li><a href="#xssl04">电话预订</a></li>				
+					</ul>
+				</div>
+				<div class="left-kong"></div>				
+			</div>
+			<div class="hc-right hc-bxsd">
+				<h1 id="xssl01" class="mt0">如何注册</h1>
+				<p>
+					1. 点击首页的"注册"按钮，进入免费注册页面，按照要求填写注册信息。
+				</p>
+				<p>
+					2. 仔细阅读会员服务条款，点击"立即开通"按钮，完成注册。
+				</p>
+				<img src="img/xssl_pic1.jpg" alt="" class="xssl-pic">
+				<h1>如何登录</h1>
+				<p>如果您已经是神州租车会员，请直接使用会员卡号、注册手机号码或注册证件号登录。</p>
+				<img src="img/xssl_pic2.jpg" alt="" class="xssl-pic">
+				<h1 id="xssl02">网站预订</h1>
+				<p>登录 www.zuche.com，按网页提示进行预订。</p>
+				<div class="mb-box">
+					<div class="fl">
+						<h1 id="xssl03">手机预订</h1>
+						<p>掌上租车，尽情享乐；随时随地， 想租就租。支持多种移动终端平台。</p>
+						<div class="dldbox">
+							<img src="img/qr_code.jpg" alt="">
+							<div class="txt">
+								<h1>扫码下载手机APP客户端</h1>
+								<p>手机浏览器访问 m.zuche.com</p>
+								<a href="#">
+									<i class="icon-iph"></i><span>iPhone版下载</span>
+								</a>
+								<a href="#">
+									<i class="icon-and"></i><span>Android版下载</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="fr">
+						<img src="img/xssl_pic3.jpg" alt="" class="phone2">
+					</div>
+				</div>
+				<h1 id="xssl04" class="mt10">电话预订</h1>
+				<p>致电神州租车24小时客户服务中心 400 616 6666，由客服人员协助预订。</p>				
+			</div>
+		</div>
+		<div class="hc-main15 hc-con" id="hc-con" style="display:none;">
+			<div class="hc-left">
+				<div class="hc-leftin hc-bxsd">
+					<h1>问题分类</h1>
+					<ul>
+						<li class="cur"><a href="javascript:;">预订及取车</a></li>
+						<li><a href="/jsp/newhelp/cjwt2.jsp">还车及结算</a></li>
+						<li><a href="/jsp/newhelp/cjwt3.jsp">保险服务</a></li>
+						<li><a href="/jsp/newhelp/cjwt4.jsp">紧急服务</a></li>
+						<li><a href="/jsp/newhelp/cjwt5.jsp">会员服务</a></li>
+						<li><a href="/jsp/newhelp/cjwt6.jsp">限行政策</a></li>
+						<li><a href="/jsp/newhelp/cjwt7.jsp">其　它</a></li>
+					</ul>
+				</div>
+				<div class="left-kong"></div>				
+			</div>
+			<div class="hc-right hc-bxsd">
+				<h1 class="mt0 mb25">预订及取车</h1>
+				<dl class="qaq">
+					<dt id="cjwt1_1">
+						<em>01. 客户具备什么条件可享受租车服务？</em>
+						<i class="arrow-gd"></i>
+						<span>展开</span>
+					</dt>
+					<dd style="display: none;" id="a1">
+						（1）年龄在18周岁（含）以上；
+						<br>
+						（2）拥有大陆地区有效驾驶证；（3）提供本人有效身份证明；
+						<br>
+						（4）持有本人有效信用卡或国内借记卡。
+					</dd>
+					<dt id="cjwt1_2">
+						<em>02. 哪些身份证明可以作为租车的身份证件？</em>
+						<i class="arrow-gd"></i>
+						<span>展开</span>
+					</dt>
+					<dd style="display: none;" id="a2">
+						目前，本人有效身份证件包括：
+						<br>
+						境内客户：二代身份证
+						<br>
+						港澳客户：港澳居民来往内地通行证
+						<br>
+						台湾客户：大陆通行证
+						<br>
+						外籍客户：护照，签证/居住证
+					</dd>
+					<dt id="cjwt1_3">
+						<em>03. 我不是中国大陆公民，可以在你们这里租车吗？</em>
+						<i class="arrow-gd"></i>
+						<span>展开</span>
+					</dt>
+					<dd style="display: none;" id="a3">
+						可以，但是由于外籍客户及港澳台客户身份验证时间较长，所以您第一次租车时，请提前至少1个工作日向预订部门提供您的签证、护照扫描件或传真件，以保证您能按时用车；请特别留意，周末及法定节假日无法进行身份验证。
+					</dd>
+					<dt id="cjwt1_4">
+						<em>04. 租车有户籍限制吗？</em>
+						<i class="arrow-gd"></i>
+						<span>展开</span>
+					</dt>
+					<dd style="display: none;" id="a4">没有。</dd>
+					<dt id="cjwt1_5">
+						<em>05. 如果本人没有信用卡或信用卡额度不足，可以租车吗？</em>
+						<i class="arrow-gd"></i>
+						<span>展开</span>
+					</dt>
+					<dd style="display: none;" id="a5">
+						如果您没有信用卡或额度不足，您可以请有信用卡的亲友为您担保，担保人需持有效身份证件、足够额度的信用卡，和您一同到店取车并在《租车单》上签字，担保人将对您租车期间所产生的一切费用及责任承担无限连带责任；<br>此外，标准租车预授权在5000元及以下的车型，非首次租车时，可以使用国内借记卡支付与租车预授权相等额度的押金。
+					</dd>
+					<dt id="cjwt1_6">
+						<em>06. 租车时，如果我没有足够额度的信用卡，能不能用两张信用卡累计进行预授权担保？</em>
+						<i class="arrow-gd"></i>
+						<span>展开</span>
+					</dt>
+					<dd style="display: none;" id="a6">
+						很抱歉，神州租车不接受两张信用卡刷取同一笔预授权，建议您寻找一位符合条件的信用卡担保人为您担保，或者您可以租用预授权在5000元及以下的车型并使用国内借记卡支付押金。
+					</dd>
+					<dt id="cjwt1_7">
+						<em>07. 租车时是否能够用现金作为担保押金？</em>
+						<i class="arrow-gd"></i>
+						<span>展开</span>
+					</dt>
+					<dd style="display: none;" id="a7">
+						很抱歉，神州租车不接受现金担保。
+					</dd>
+					<dt id="cjwt1_8">
+						<em>08. 如何预订租车服务？</em>
+						<i class="arrow-gd"></i>
+						<span>展开</span>
+					</dt>
+					<dd style="display: none;" id="a8">
+						您可以通过以下几种方式预订：<br>
+						1、网上预订：登录www.zuche.com，按网页提示进行预订；<br>
+						2、电话预订：致电神州租车24小时客户服务中心400 616 6666，由客服人员协助办理；<br>
+						3、门店预订：光临神州租车各城市的门店，由门店人员协助办理。预订成功后，您将收到神州租车发送的确认短信。<br>
+						4、手机客户端预订：下载神州租车客户端，按首页提示进行会员登录、预订。
+					</dd>
+					<dt id="cjwt1_9">
+						<em>09. 什么是级别订车？和车型订车有什么区别？</em>
+						<i class="arrow-gd"></i>
+						<span>展开</span>
+					</dt>
+					<dd style="display: none;" id="a9">
+						您在预订时指定车辆级别（如手动紧凑型轿车）、不指定具体车型的预订，即为级别预订。在按级别预订的情况下，您将享受一定幅度的价格优惠或专属促销，取车时您的用车将可能是预订级别内的任一款车型。
+					</dd>
+					<dt id="cjwt1_10">
+						<em>10. 每次租车的数量有限制吗？</em>
+						<i class="arrow-gd"></i>
+						<span>展开</span>
+					</dt>
+					<dd style="display: none;" id="a10">
+						有。每位客户每次限租1辆（每位信用卡担保人每次限担保1辆），即在您所租车辆未归还前，不能租用其他车辆。
+					</dd>
+					<dt id="cjwt1_11">
+						<em>11. 无法提供已预订的车辆时会如何处理？</em>
+						<i class="arrow-gd"></i>
+						<span>展开</span>
+					</dt>
+					<dd style="display: none;" id="a11">
+						若因特殊原因无法为您提供已成功预订的车型时，我们将为您调整或免费升级就近车型；<br>
+						特殊情况无法履行订单的，我们将提前通知您，并补偿您订单首日租赁费及门店服务费同等金额的代金券；<br>
+						如果您已经成功预付，除退还您预付的租金外，我们还将补偿您已付金额等值的代金券或单倍已预付金额的现金。
+					</dd>
+					<dt id="cjwt1_12">
+						<em>12. 预订送车上门服务需预先支付费用吗？</em>
+						<i class="arrow-gd"></i>
+						<span>展开</span>
+					</dt>
+					<dd style="display: none;" id="a12">
+						订单提交后1小时内，需请您按系统提示金额预付车辆租赁费及门店服务费。如因您的原因无法履约，取车前4小时以上取消订单，可全额退还预付款，否则该费用恕不退还。
+					</dd>
+					<dt id="cjwt1_13">
+						<em>13. 预订送车上门（或上门取车）服务需要提前预订吗？</em>
+						<i class="arrow-gd"></i>
+						<span>展开</span>
+					</dt>
+					<dd style="display: none;" id="a13">
+						该服务仅在9:00-20:00提供，为满足您的需求，请务必提前4个工作小时预订。
+					</dd>
+					<dt id="cjwt1_14">
+						<em>14. 如何确认我的预订是否成功？</em>
+						<i class="arrow-gd"></i>
+						<span>展开</span>
+					</dt>
+					<dd style="display: none;" id="a14">
+						成功预订后，系统将在3分钟内自动发送成功预订的确认短信到您的手机。经短信确认的预订即为有效预订。
+					</dd>
+					<dt id="cjwt1_15">
+						<em>15. 我预订的车辆能够保留多长时间？</em>
+						<i class="arrow-gd"></i>
+						<span>展开</span>
+					</dt>
+					<dd style="display: none;" id="a15">
+						我们会从您预订的取车时间起保留半小时的取车时间；如果超过预订取车时间半个小时仍未取车，订单将自动取消；如需延时取车，请您在预订取车时间前主动联系我们，我们将为您保留车辆，取车时间将按您原预订的取车时间起算。
+					</dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+	<!-- 内容区结束 -->
+
+	<!-- 侧边栏容器开始 -->
+	<div class="toolbar">
+		<a href="javasrcipt:;" class="toolbar-item toolbar-item-weixin">
+			<span class="toolbar-layer"></span>
+		</a>
+		<a href="javasrcipt:;" class="toolbar-item toolbar-item-feedback"></a>
+		<a href="javasrcipt:;" class="toolbar-item toolbar-item-app">
+			<span class="toolbar-layer"></span>
+		</a>
+		<a href="javasrcipt:;" class="toolbar-item toolbar-item-top" style="display:none;"></a>
+	</div>
+	<!-- 侧边栏容器结束 -->
+
+	<!-- js文件 -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/my/script.js"></script>	
+	<script type="text/javascript" src="js/my/help.js"></script>
+	
+	
+
+</body>
+</html>

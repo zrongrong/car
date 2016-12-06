@@ -1,0 +1,434 @@
+@charset "utf-8";
+
+.fn-left {
+	float: left;
+}
+
+.fn-right {
+	float: right;
+}
+
+a {
+	color: #fff;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*海外房车*/
+.navbar-brand {
+	font-size: 28px;
+	height: 55px;
+	font-weight: bold;
+	padding: 15px 26px;
+}
+
+.navbar-nav {
+	margin: 0; 
+}
+
+.navbar-nav > li > a {
+	line-height: 23px;
+}
+
+.navbar-toggle {
+	padding: 13px 14px;
+}
+
+.www_banner {
+	background: url(../img/banner4.jpg) no-repeat center;
+	height: 458px;
+	background-size: cover;
+}
+.row {
+	margin-top: 60px;
+	margin-right: 0;
+	margin-left: 0;
+	/*background: green;*/
+}
+
+.dropdown-menu {
+	background: #222222;	
+}
+
+.dropdown-menu > li > a {
+	color: #9d9d9d;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	background: #222222;
+	color: #fff;
+}
+
+/*内容区*/
+.top-bar {
+	padding: 20px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.item {
+	margin-bottom: 20px;
+	/*padding-right: 0px;*/
+	/*padding-left: 7px;*/
+	/*background: #0cc;*/
+}
+
+.detail {
+	width: 269px;
+	height: 70px;
+	/*background: #0cc;*/
+}
+
+.detail s {
+	background: url(../img/add_ser.png) no-repeat 0 -134px;
+	width: 64px;
+	height: 64px;
+	margin-right: 5px;
+	display: block;
+	float: left;
+}
+
+.detail .detail-txt {
+	width: 200px;
+	font-size: 14px;
+	font-family: "Microsoft Yahei",'宋体';	
+}
+
+.detail .detail-txt h3 {
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.detail .detail-txt p {
+	line-height: 20px;
+}
+
+.c77 {
+	color: #777!important;
+}
+
+.detail s.icon2 {
+	background-position: -65px -134px;
+}
+
+.detail s.icon3 {
+	background-position: -130px -134px;
+}
+
+.detail s.icon4 {
+	background-position: -195px -134px;
+}
+
+/*房车之旅，从这里启程*/
+.container {
+	padding: 0px;
+}
+.tit_p {
+	color: #777;
+	font-size: 14px;
+	margin: 60px 0 50px;
+	text-align: center;
+	font-family: "Microsoft Yahei",'宋体';	
+}
+
+.tit_p span {
+	color: #333;
+	font-size: 34px;
+	font-weight: bold;
+}
+
+/*翻拍效果*/
+.www-con .text-center a {
+	position: relative;
+	display: block;
+	width: 280px;
+	height: 300px;
+	/*选进度必须家在父容器上*/
+	perspective:700px;
+	margin: 20px auto;
+}
+
+/*正反面统一设置*/
+.www-con .text-center a > div {
+	top: 0;
+	left: 0;
+	/*背面不可视*/
+	backface-visibility: hidden;
+	/*元素本身3d效果*/
+	transform-style:preserve-3d;
+}
+
+/*正面*/
+.www-con .text-center .forward {
+	position: absolute;
+	transition:all 0.8s ease-in-out;
+}
+
+.www-con .text-center a:hover .forward {
+	transform:rotateY(-180deg);
+}
+
+.www-con .text-center .forward .tips {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: rgba(0,0,0,0.6);
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+}
+
+/*背面*/
+.www-con .text-center .back {
+	position: absolute;
+	width: 280px;
+	height: 300px;
+	background: #BFC779;	
+
+	transform:rotateY(180deg);
+	transition:all 0.8s ease-in-out; 
+}
+
+.www-con .text-center a:hover .back {
+	transform:rotateY(0deg);
+}
+.www-con .text-center .back h3 {
+	color: #fff;
+	line-height: 16px;
+	border-bottom: 1px dashed #fff;
+	padding: 15px 0;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.www-con .text-center .back p {
+	color: #fff;
+	font-size: 12px;
+	line-height: 18px;
+	text-indent: 2em;
+	padding: 0 10px;
+}
+
+/*房车旅行就是如此简单*/
+.col_box6 {
+	width: 100%;	
+}
+
+.col_box6 {	
+	color: #ffffff;
+	height: 280px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;	
+}
+
+.col_box6 s {
+	background: url("../img/steps.jpg") no-repeat;
+	display: block;
+	height: 210px;
+	width: 165px;
+}
+
+.step2 s {
+	background-position: -220px 0;
+}
+
+.step3 s {
+	background-position: -440px 0;
+}
+
+.step4 s {
+	background-position: 0 -212px;
+}
+
+.step5 s {
+	background-position: -220px -212px;
+}
+
+.step3 s {
+	background-position: -440px 0;
+}
+
+.step_box {
+	height: 280px;
+	position: absolute;
+	top: 210px;
+	transition: all 0.5s;
+	width: 165px;
+}
+
+.step1 .step_box {
+	background: #f1cb63;
+}
+
+.step2 .step_box {
+	background: #f0c44f;
+}
+
+.step3 .step_box {
+	background: #f0c44f;
+}
+
+.step4 .step_box {
+	background: #b1d878;
+}
+
+.step5 .step_box {
+	background: #8ac957;
+}
+
+.step6 .step_box {
+	background: #749E52;
+}
+
+.step_box h3 {
+	font-size: 20px;
+	height: 70px;
+	line-height: 70px;
+	margin: 0;
+}
+
+.step_box li {
+	padding: 0 20px 10px;
+	text-align: left;
+	list-style: none;
+}
+
+.step_box li a {
+	font-size: 14px;
+}
+
+.step_box li a:hover {
+	text-decoration: underline;
+}
+
+.col_box6:hover .step_box {
+	top: 0px;	
+}
+
+.city1 .img-hide {
+	overflow: hidden;
+}
+
+.city1 img {
+	cursor: pointer;
+	opacity: 0.8;
+	transition: all 1s;
+}
+
+.city1 img:hover {
+	transform: scale(1.5);
+	opacity: 1;
+}
+
+#more {
+	text-align: center;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+#more a {
+	background-color: #fafafa;
+	border: 1px solid #d1d1d1;
+	border-radius: 2px;
+	display: inline-block;
+	font-size: 16px;
+	padding: 12px 0;
+	text-align: center;
+	width: 330px;
+	color: #333;	
+}
+
+/*贴心的房车旅行伴侣*/
+.add-services {
+	background: #f5f5f5;
+	color: #777;
+	margin-top: 60px;
+	padding-top: 5px;
+	padding-bottom: 40px;
+}
+
+.col_3_box {
+	background: #fff;
+	font-size: 14px;
+	width: 280px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.col_3_box a {
+	border: 2px solid #fff;
+
+	/*width: 280px;*/
+	height: 300px;
+	display: block;
+	transition: all 800ms ease 100ms;
+}
+
+.col_3_box:hover a {
+	border: 2px solid #ccc;
+}
+
+.add-services .item s, .arrow_tip {
+	background: url("../img/add_ser.png") no-repeat;
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	margin: 50px 90px 30px;
+}
+
+.col_3_box .arrow_tip {
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	width: 64px;
+	height: 63px;
+	background-position: -401px 0;
+	margin: 0;
+	display: block;
+}
+
+.item a {
+	color: #333;
+	text-align: center;
+	font-size: 14px;
+}
+
+.item span {
+	display: block;
+	font-size: 22px;
+	color: #333;
+	text-align: center;
+}
+
+.col_3_box .arrow_tip2 {
+	background-position: -401px -65px;
+}
+
+.add-services .item s.wifi {
+	background-position: -200px 0;
+}
+
+.add-services .item s.hyx {
+	background-position: -300px 0;
+}
+
+.add-services .item s.baoxian {
+	background-position: -100px 0;
+}
+
+/*回到顶部按钮*/
+#topcontrol {
+	position: fixed;
+	right: 5px;
+	bottom: 80px;
+	cursor: pointer;
+	z-index: 10000;
+}
